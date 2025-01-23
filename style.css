@@ -8,28 +8,29 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+
 }
 
 .container{
     font-family: Arial, Helvetica, sans-serif;
-    background-color:  hsl(241, 81%, 54%);
+    background-color: white;
     max-width: 600px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     height: auto;
-
 }
 
 .left-card{
+    background-color:  hsl(241, 81%, 54%);
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-
+    padding: 40px;
+    border-radius: 20px;
 }
 
 .number{
@@ -53,8 +54,85 @@ body{
     color:hsla(222, 100%, 96%, 0.692)
 }
 p{
-text-align: center;
+    text-align: center;
+    color: rgba(231, 229, 229, 0.637);
+}
+
+.number-hundred{
+    color: rgba(231, 229, 229, 0.637);;
 }
 
 
+.right-card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 20px 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 15px 0;
+    font-weight: 600;
+}
+
+
+.summary{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.418);
+    display: flex;
+    flex-direction: row;
+}
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.301);
+    display: flex;
+    flex-direction: row;
+}
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.377);
+    display: flex;
+    flex-direction: row;
+}
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.281);
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    background-color: rgba(9, 8, 75, 0.932);
+    color: white;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 20px;
+    
+}
+
+.word-reaction{
+    color: hsl(0, 73%, 57%);
+}
+.word-memory{
+    color: hsl(39, 100%, 49%);
+    
+}
+.word-verbal{
+    color: hsl(166, 87%, 29%);
+    
+}
+.word-visual{
+    color: hsl(234, 85%, 45%);
+
+}
