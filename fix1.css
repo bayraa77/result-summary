@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Hanken Grotesk", serif;
+}
+p{
+    font-size: 18px;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#container{
+    background-color: rgb(126, 190, 126);
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+}
+
+.summary-section{
+    background-color: aqua;
+    padding: 20px;
+    display: flex;
+    flex-direction: column ;
+    gap: 10px   ;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    padding: 10px 0;
+    padding-top: 0;
+
+}
+.first, .second{
+    display: flex;
+    gap: 10px    ;
+}
+
+
+
+
+.reaction, .memory, .verbal, .visual{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px 0;
+}
